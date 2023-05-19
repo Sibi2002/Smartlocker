@@ -1,0 +1,52 @@
+#login{
+    padding: 0.5px;
+    color: hsl(207, 57%, 72%);
+    position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+}
+.login-avatar{
+  margin: auto;
+}
+#grider{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.logincontainer{
+  flex-grow: 1;
+  text-align: center;
+}
+.Signuplink{
+  text-shadow: 2;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1cap;
+}
+.Signuplink:hover{
+   color: hsl(335, 68%, 55%);
+   font-size: large;
+}
+
+.locker_img{
+    align-self: flex-start;
+    width: 45%;
+    min-height: 200px;
+    height: 100%;
+    object-fit: cover; 
+    padding: 1cap; 
+}
+@media (max-width:600px) {
+  .Signuplink{
+    font-size: 1cap;
+  }
+  .locker_img{
+    display: none;
+  }
+  #grider{
+    width:max-content;
+  }
+}
+ 

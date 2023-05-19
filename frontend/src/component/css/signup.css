@@ -1,0 +1,54 @@
+#signup{
+  padding: 0.5px;
+  color: hsl(207, 57%, 72%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+#signupgrider{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+.loginlink{
+  display: inline-block;
+  text-shadow: 2;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding: 1cap; 
+}
+.loginlink:hover{
+   color: hsl(335, 63%, 54%);
+   font-size: large;
+}
+
+.signupcontainer{
+  flex-grow: 1;
+  text-align: center;
+}
+#signuplocker_img{
+  align-self: stretch;
+  min-height: 200px;
+  padding: 3px;
+}
+@media (max-width:600px) {
+  .loginlink{
+    font-size: 1cap;
+  }
+  #sigupgrider{
+    width:max-content;
+  }
+  #signuplocker_img{
+    display:none;
+  }
+}

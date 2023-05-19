@@ -1,0 +1,1 @@
+alter table session_management add column is_verified bool default false;

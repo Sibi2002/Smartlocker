@@ -1,0 +1,1 @@
+alter table otp_management add column is_verified bool default false;

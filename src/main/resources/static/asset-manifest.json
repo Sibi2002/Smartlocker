@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dd8614c.css",
+    "main.js": "/static/js/main.fbf6aa16.js",
+    "static/js/787.eff39ba5.chunk.js": "/static/js/787.eff39ba5.chunk.js",
+    "static/media/locker.jpg": "/static/media/locker.bf52abef08b78c1597d2.jpg",
+    "index.html": "/index.html",
+    "main.9dd8614c.css.map": "/static/css/main.9dd8614c.css.map",
+    "main.fbf6aa16.js.map": "/static/js/main.fbf6aa16.js.map",
+    "787.eff39ba5.chunk.js.map": "/static/js/787.eff39ba5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd8614c.css",
+    "static/js/main.fbf6aa16.js"
+  ]
+}
